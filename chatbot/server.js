@@ -5,6 +5,9 @@ const path = require('path');
 const http = require('http');
 require('dotenv').config();
 
+// Vercel: use cwd so static files resolve correctly
+const BASE_DIR = process.env.VERCEL === '1' ? process.cwd() : __dirname;
+
 // Import API routes
 const ttsRoutes = require('./api/tts');
 const chatbotRoutes = require('./api/chatbot');
@@ -19,7 +22,7 @@ const server = http.createServer(app);
 // Middleware
 app.use(cors());
 app.use(express.json());
-app.use(express.static('public'));
+app.use(express.static(path.join(BASE_DIR, 'public')));
 
 // Configure AWS from environment
 const AWS = require('aws-sdk');
@@ -35,7 +38,7 @@ app.use('/api', chatbotRoutes);
 
 // Main page - RPM Chatbot with Book Covers (KoraV5)
 app.get('/', (req, res) => {
-  res.sendFile(path.join(__dirname, 'public', 'rpm-chatbot.html'));
+  res.sendFile(path.join(BASE_DIR, 'public', 'rpm-chatbot.html'));
 });
 
 // Config endpoint
