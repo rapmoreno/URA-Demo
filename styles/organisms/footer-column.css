@@ -1,0 +1,68 @@
+/* app-footer-column */
+.footer-column h3 {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: var(--color-text-primary);
+  margin-bottom: 1.5rem;
+}
+
+.footer-column ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-column li {
+  margin-bottom: 0.75rem;
+}
+
+.footer-column a {
+  color: var(--color-text-secondary);
+  text-decoration: none;
+  font-size: 0.9rem;
+  transition: color 0.2s ease;
+}
+
+.footer-column a:hover {
+  color: var(--color-brand-primary);
+}
+
+.footer-promo {
+  background: var(--color-surface);
+  border-radius: 8px;
+  padding: 1.5rem;
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  box-shadow: var(--shadow-sm);
+  overflow: hidden;
+  min-width: 300px;
+}
+
+.footer-promo-image {
+  width: 120px;
+  height: 80px;
+  background: url('../../generated-img/singapore-city-gallery-interior.png');
+  background-size: cover;
+  background-position: center;
+  border-radius: 6px;
+  flex-shrink: 0;
+}
+
+.footer-promo-content {
+  flex: 1;
+  min-width: 0;
+}
+
+.footer-promo-content h4 {
+  font-size: 1rem;
+  font-weight: 600;
+  margin: 0 0 0.25rem;
+  color: var(--color-text-primary);
+}
+
+.footer-promo-content p {
+  font-size: 0.85rem;
+  color: var(--color-text-muted);
+  margin: 0;
+}

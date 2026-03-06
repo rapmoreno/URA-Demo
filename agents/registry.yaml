@@ -1,0 +1,37 @@
+version: 1
+agents:
+  - id: ura_chatbot_faq
+    name: URA Chatbot FAQ Assistant
+    version: 1.0.0
+    enabled: true
+    provider: openrouter
+    model: meta-llama/llama-3.3-70b-instruct
+    provider_routing:
+      order: [Groq]
+      allow_fallbacks: false
+    description: FAQ assistant for URA website with avatar integration. Answers questions about season parking, land sales, and URA services.
+    tags: [ura, faq, singapore, avatar]
+    prompt_file: prompts/ura_chatbot_faq.md
+    output_schema: schemas/ura_chatbot_faq_output.schema.json
+    params:
+      temperature: 0.8
+      max_tokens: 1000
+    guardrails: []
+
+  - id: ura_memory_analyzer
+    name: URA Memory Analyzer
+    version: 1.0.0
+    enabled: true
+    provider: openrouter
+    model: meta-llama/llama-3.3-70b-instruct
+    provider_routing:
+      order: [Groq]
+      allow_fallbacks: false
+    description: Extracts user information from conversation transcripts for persistent memory.
+    tags: [ura, memory, analysis]
+    prompt_file: prompts/ura_memory_analyzer.md
+    output_schema: schemas/ura_memory_analyzer_output.schema.json
+    params:
+      temperature: 0.2
+      max_tokens: 500
+    guardrails: []

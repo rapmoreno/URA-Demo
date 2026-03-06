@@ -1,0 +1,11 @@
+/**
+ * Module: tailwind-overrides.css
+ * Type: Quarantine
+ * Purpose: Last resort for Tailwind customizations. Solve in tailwind.config.js first.
+ *
+ * Depends on: nothing
+ * Used by: main.css
+ * Side effects: Overrides Tailwind utilities
+ */
+
+/* Intentionally empty - add overrides only when config cannot solve */

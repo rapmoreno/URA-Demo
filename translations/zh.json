@@ -1,0 +1,223 @@
+{
+  "navigation": {
+    "whoWeAre": "关于我们",
+    "planning": "城市规划",
+    "property": "房地产",
+    "guidelines": "指南",
+    "carParks": "停车场",
+    "landSales": "政府售地",
+    "getInvolved": "参与"
+  },
+  "hero": {
+    "tagline": "今天预见<br>明天",
+    "title": "在“总体规划草案2025”展览中<br>展望未来",
+    "findOut": "了解更多请访问",
+    "link": "go.gov.sg/URADraftMasterPlan",
+    "footerTagline": "期待美好生活"
+  },
+  "quickLinks": {
+    "title": "快速链接",
+    "masterPlan": "总体规划 2025",
+    "buyRentProperty": "购买与租赁房产",
+    "applyParking": "申请停车位",
+    "renewParking": "续办停车",
+    "payApplicationFees": "缴付申请费用",
+    "higherOccupancy": "较高住户人数申请",
+    "payFines": "缴付罚款",
+    "moreServices": "更多服务"
+  },
+  "uraSpace": {
+    "description": "为建筑专业人士、企业经营者和公众提供规划数据",
+    "launch": "启动",
+    "masterPlan2019": "总体规划 2019",
+    "governmentLandSales": "政府售地",
+    "exploreDevelopmentSite": "探索开发地点",
+    "checkCarParkRates": "查看停车费率",
+    "allowableUseShophouses": "店屋允许用途",
+    "buyUraSeasonParking": "购买 URA 停车季票",
+    "conservationAreasBuildings": "保留区与保留建筑",
+    "privateResidentialTransactions": "私人住宅物业交易",
+    "controlPlansUrbanDesign": "控制规划和城市设计指导原则",
+    "demographicsPlanning": "规划分区人口统计"
+  },
+  "serviceCards": {
+    "masterPlan": {
+      "title": "总体规划 2019",
+      "description": "新加坡土地使用蓝图，指导未来10-15年发展。",
+      "button": "探索规划"
+    },
+    "landSales": {
+      "title": "政府土地出售",
+      "description": "政府土地地块和开发机会的实时信息。",
+      "button": "查看地点"
+    },
+    "developmentSite": {
+      "title": "探索开发地点",
+      "description": "分析开发潜力和规划参数的交互式工具。",
+      "button": "开始探索"
+    },
+    "carParkRates": {
+      "title": "查看停车费率",
+      "description": "全岛URA停车场的停车费率和付费选项。",
+      "button": "查看费率"
+    },
+    "shophouses": {
+      "title": "店屋允许用途",
+      "description": "历史店屋的商业活动和使用指导原则。",
+      "button": "查看指导原则"
+    },
+    "seasonParking": {
+      "title": "购买 URA 停车季票",
+      "description": "在线购买停车季票，即时确认。",
+      "button": "购买通行证"
+    },
+    "conservation": {
+      "title": "保留区",
+      "description": "遗产区指导原则和历史建筑修复要求。",
+      "button": "了解更多"
+    },
+    "propertyTransactions": {
+      "title": "房产交易",
+      "description": "住宅房产销售和市场趋势的综合数据。",
+      "button": "查看数据"
+    },
+    "urbanDesign": {
+      "title": "城市设计指导原则",
+      "description": "规划控制方案和新加坡建筑环境设计标准。",
+      "button": "查看指导原则"
+    },
+    "demographics": {
+      "title": "人口统计与规划",
+      "description": "按分区划分的人口统计和规划数据，支持发展决策。",
+      "button": "探索数据"
+    }
+  },
+  "getInvolved": {
+    "title": "参与",
+    "draftMasterPlan": "总体规划草案 2025 展览",
+    "draftMasterPlanDesc": "我们正在制定总体规划草案 2025，详细规划未来 10 至 15 年的土地使用方案。加入我们，共同塑造我们的城市。",
+    "architectureCollection": "新加坡建筑收藏展览",
+    "architectureCollectionDesc": "本展览探索过去 60 年来的五个大胆规划——如 1971 年概念规划、中央区结构规划和特色规划——这些规划塑造了我们的城市。",
+    "williamLimIdea": "绘制理念：回溯 William Lim Associates – W Architects 的设计",
+    "williamLimIdeaDesc": "通过林学明建筑师事务所和 W 建筑师的作品，在新加坡建筑收藏的首次展示中了解更多新加坡建筑",
+    "seeMore": "查看更多"
+  },
+  "ideasTrends": {
+    "title": "理念与趋势",
+    "articles": [
+      {
+        "title": "艺术为西海岸公园注入新活力",
+        "description": "创意装置将公共空间转变为充满活力的社区中心。"
+      },
+      {
+        "title": "设计博物馆如何推动城市变革",
+        "description": "设计博物馆激发城市变革性改变，体现了博物馆的作用和设计的力量。"
+      },
+      {
+        "title": "传承我们对建筑遗产的热爱",
+        "description": "何培鹏教授希望更多公众分享新加坡建筑遗产并采用完善的保护管理。"
+      },
+      {
+        "title": "国家建设的基石",
+        "description": "专家见解：制定经济、国防、住房和社会结构框架来指导遗产地评估。"
+      },
+      {
+        "title": "为什么生态廊道对高密度城市很重要",
+        "description": "新研究显示廊道如何让生物多样性蓬勃发展，同时让人们更亲近自然。"
+      },
+      {
+        "title": "特色廊道激发新可能性",
+        "description": "居民从身份廊道参与中设想新可能性——户外教室或激活后巷。"
+      }
+    ],
+    "seeMore": "查看更多"
+  },
+  "latestNews": {
+    "title": "最新消息",
+    "news": [
+      {
+        "date": "2025年9月10日",
+        "category": "媒体发布",
+        "title": "Chuan Grove 住宅用地招标结果公布"
+      },
+      {
+        "date": "2025年9月4日", 
+        "category": "媒体发布",
+        "title": "Chuan Grove 住宅用地招标截止"
+      },
+      {
+        "date": "2025年8月26日",
+        "category": "媒体发布", 
+        "title": "武吉知马路住宅用地公开招标"
+      },
+      {
+        "date": "2025年8月7日",
+        "category": "媒体发布",
+        "title": "Holland Link 住宅用地招标结果公布"
+      },
+      {
+        "date": "2025年7月31日",
+        "category": "媒体发布",
+        "title": "2025年总统设计奖表彰推动积极社会和环境变化的远见和有目的设计"
+      },
+      {
+        "date": "2025年7月29日",
+        "category": "媒体发布",
+        "title": "Holland Link 住宅用地招标截止"
+      },
+      {
+        "date": "2025年7月25日",
+        "category": "媒体发布",
+        "title": "发布2025年第二季度房地产统计数据"
+      },
+      {
+        "date": "2025年7月17日",
+        "category": "媒体发布",
+        "title": "Chuan Grove 住宅用地招标结果公布"
+      },
+      {
+        "date": "2025年7月15日",
+        "category": "媒体发布",
+        "title": "个人和公司因对德斯克路32号保护建筑进行未经授权的工程而被起诉"
+      }
+    ],
+    "seeMore": "查看更多"
+  },
+  "footer": {
+    "eServices": "电子服务",
+    "carParks": "停车场",
+    "conservation": "保护",
+    "developmentControl": "发展控制",
+    "oneStopPortal": "一站式开发商门户",
+    "planning": "规划",
+    "propertyMarket": "房地产市场",
+    "infrastructureNetwork": "基础设施走线规划与 Alignment Clearance 审批",
+    "others": "其他",
+    "mediaRoom": "媒体室",
+    "mediaReleases": "媒体发布",
+    "forumReplies": "论坛回复",
+    "speeches": "演讲",
+    "careers": "职业",
+    "bePartOfTeam": "成为优秀团队的一员！",
+    "careersAtURA": "加入 URA",
+    "opportunitiesStudents": "学生机会",
+    "facilitiesRental": "设施租赁",
+    "hall": "大厅",
+    "rooms": "房间",
+    "cityGalleryTitle": "SINGAPORE CITY GALLERY",
+    "cityGalleryDesc": "参观我们的展览馆，了解新加坡的发展历程！",
+    "monthlyUpdates": "接收我们的月度更新",
+    "subscribe": "订阅",
+    "reportVulnerability": "报告漏洞",
+    "privacyStatement": "隐私声明",
+    "termsOfUse": "使用条款",
+    "sitemap": "网站地图",
+    "contactUs": "联系我们",
+    "feedback": "反馈",
+    "copyright": "©2025 城市重建局",
+    "lastUpdated": "最后更新：2025年9月12日"
+  },
+  "government": {
+    "agencyWebsite": "新加坡政府机构网站"
+  }
+}

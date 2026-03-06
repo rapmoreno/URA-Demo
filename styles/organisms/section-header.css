@@ -1,0 +1,33 @@
+/**
+ * Module: organisms/section-header.css
+ * Type: Organism
+ * Purpose: Styles for app-section-header (section title with accent bar).
+ *
+ * Depends on: atoms/tokens-semantic.css
+ * Used by: app-section-header
+ * Side effects: None
+ */
+
+app-section-header .section-header {
+  margin-bottom: 3rem;
+}
+
+app-section-header .section-title-bar {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+app-section-header .title-accent {
+  width: 4px;
+  height: 2.5rem;
+  background: var(--color-brand-primary);
+  border-radius: 2px;
+}
+
+app-section-header .section-header h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: var(--color-text-primary);
+  margin: 0;
+}

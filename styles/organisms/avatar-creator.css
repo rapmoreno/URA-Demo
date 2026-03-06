@@ -1,0 +1,166 @@
+/**
+ * Module: organisms/avatar-creator.css
+ * Type: Organism
+ * Purpose: Styles for URA Avatar Creator (Ready Player Me iframe).
+ *
+ * Depends on: atoms/tokens-semantic.css (optional)
+ * Used by: avatar.html
+ * Side effects: None
+ */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.skip-link {
+  position: absolute;
+  top: -100px;
+  left: 0.5rem;
+  z-index: 9999;
+  padding: 0.75rem 1rem;
+  background: #e74c3c;
+  color: white;
+  font-weight: 600;
+  border-radius: 4px;
+  transition: top 0.2s ease;
+}
+
+.skip-link:focus {
+  top: 0.5rem;
+}
+
+html.avatar-creator-page,
+body.avatar-creator-page {
+  width: 100%;
+  height: 100vh;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
+  color: #ffffff;
+  overflow: hidden;
+}
+
+.avatar-creator-page .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  padding: 20px;
+  gap: 20px;
+}
+
+.avatar-creator-page .controls {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(15px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 15px;
+  padding: 12px 25px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+}
+
+.avatar-creator-page .btn {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  border: none;
+  border-radius: 10px;
+  padding: 10px 20px;
+  color: white;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(102, 126, 234, 0.3);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  white-space: nowrap;
+}
+
+.avatar-creator-page .btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(102, 126, 234, 0.4);
+  background: linear-gradient(135deg, #7b8ef4 0%, #8458b3 100%);
+}
+
+.avatar-creator-page .btn:active {
+  transform: translateY(0);
+}
+
+.avatar-creator-page .avatar-url {
+  background: rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  padding: 10px 15px;
+  min-width: 300px;
+  text-align: left;
+  font-family: "Monaco", "Menlo", "Ubuntu Mono", monospace;
+  font-size: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  word-break: break-all;
+  line-height: 1.2;
+  flex: 1;
+  max-width: 500px;
+}
+
+.avatar-creator-page .avatar-url.has-url {
+  background: rgba(34, 197, 94, 0.2);
+  border-color: rgba(34, 197, 94, 0.3);
+  color: #86efac;
+}
+
+.avatar-creator-page .frame {
+  width: 95vw;
+  height: 92vh;
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  border-radius: 20px;
+  background: rgba(0, 0, 0, 0.2);
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(10px);
+  transition: all 0.3s ease;
+}
+
+.avatar-creator-page .frame:not([hidden]) {
+  animation: avatarFadeInScale 0.5s ease-out;
+}
+
+@keyframes avatarFadeInScale {
+  from {
+    opacity: 0;
+    transform: scale(0.95);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.avatar-creator-page .title {
+  font-size: 18px;
+  font-weight: 700;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  white-space: nowrap;
+}
+
+@media (max-width: 768px) {
+  .avatar-creator-page .controls {
+    flex-direction: column;
+    padding: 15px;
+    gap: 10px;
+  }
+
+  .avatar-creator-page .avatar-url {
+    min-width: 280px;
+    font-size: 11px;
+  }
+
+  .avatar-creator-page .frame {
+    width: 98vw;
+    height: 88vh;
+  }
+}

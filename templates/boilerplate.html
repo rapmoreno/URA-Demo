@@ -1,0 +1,67 @@
+<!-- No inline or internal CSS styles are allowed. -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- SEO -->
+  <title>Page Title — Project Name</title>
+  <meta name="description" content="Brief description of this page.">
+  <link rel="canonical" href="https://example.com/page">
+  <meta name="robots" content="index, follow">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Page Title — Project Name">
+  <meta property="og:description" content="Brief description of this page.">
+  <meta property="og:image" content="https://example.com/images/og-image.jpg">
+  <meta property="og:url" content="https://example.com/page">
+  <meta property="og:type" content="website">
+
+  <!-- Favicon — replace with project favicon or remove to avoid 404 -->
+  <link rel="icon" href="/img/favicon.ico" type="image/x-icon">
+
+  <!-- CSS: reset > Tailwind > fonts > icons > project -->
+  <link rel="stylesheet" href="/styles/reset.css">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600&family=Inter:wght@400;500;600;700&family=Merriweather:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lucide-static@latest/font/lucide.min.css">
+  <link rel="stylesheet" href="/styles/main.css">
+
+  <!-- Tailwind config — shared across all pages -->
+  <script src="/tailwind.config.js"></script>
+</head>
+<body>
+
+  <noscript><p>This site requires JavaScript to function. Please enable JavaScript in your browser.</p></noscript>
+
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <header>
+    <nav aria-label="Main navigation">
+    </nav>
+  </header>
+
+  <main id="main-content">
+    <h1>Page Title</h1>
+  </main>
+
+  <footer>
+  </footer>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Page Title",
+    "description": "Brief description of this page.",
+    "url": "https://example.com/page"
+  }
+  </script>
+
+  <script type="module" src="/scripts/main.js" defer></script>
+
+</body>
+</html>

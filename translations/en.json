@@ -1,0 +1,232 @@
+{
+  "navigation": {
+    "whoWeAre": "Who We Are",
+    "planning": "Planning",
+    "property": "Property", 
+    "guidelines": "Guidelines",
+    "carParks": "Car Parks",
+    "landSales": "Land Sales",
+    "getInvolved": "Get Involved"
+  },
+  "hero": {
+    "tagline": "Catch a glimpse of<br>tomorrow, today.",
+    "title": "Peek into the future at the<br>Draft Master Plan 2025 Exhibition.",
+    "findOut": "Find out more at",
+    "link": "go.gov.sg/URADraftMasterPlan",
+    "footerTagline": "Look forward to life."
+  },
+  "quickLinks": {
+    "title": "Quick Links",
+    "masterPlan": "Master Plan 2025",
+    "buyRentProperty": "Buy & Rent Property",
+    "applyParking": "Apply Parking",
+    "renewParking": "Renew Parking", 
+    "payApplicationFees": "Pay Application Fees",
+    "higherOccupancy": "Higher Occupancy",
+    "payFines": "Pay Fines",
+    "moreServices": "More Services"
+  },
+  "uraSpace": {
+    "description": "Planning data for building professionals, business operators and public",
+    "launch": "Launch",
+    "masterPlan2019": "Master Plan 2019",
+    "governmentLandSales": "Government Land Sales",
+    "exploreDevelopmentSite": "Explore Development Site",
+    "checkCarParkRates": "Check Car Park Rates",
+    "allowableUseShophouses": "Allowable Use for Shophouses",
+    "buyUraSeasonParking": "Buy URA Season Parking",
+    "conservationAreasBuildings": "Conservation Areas and Buildings",
+    "privateResidentialTransactions": "Private Residential Property Transactions",
+    "controlPlansUrbanDesign": "Control Plans and Urban Design Guidelines",
+    "demographicsPlanning": "Demographics in Planning Subzone"
+  },
+  "serviceCards": {
+    "masterPlan": {
+      "title": "Master Plan 2019",
+      "description": "Singapore's land use blueprint guiding development for the next 10-15 years.",
+      "button": "Explore Plan"
+    },
+    "landSales": {
+      "title": "Government Land Sales",
+      "description": "Real-time information on available land parcels and development opportunities.",
+      "button": "View Sites"
+    },
+    "developmentSite": {
+      "title": "Explore Development Site",
+      "description": "Interactive tools to analyze development potential and planning parameters.",
+      "button": "Start Exploring"
+    },
+    "carParkRates": {
+      "title": "Check Car Park Rates",
+      "description": "Find parking rates and payment options for URA car parks citywide.",
+      "button": "Check Rates"
+    },
+    "shophouses": {
+      "title": "Allowable Use for Shophouses",
+      "description": "Business activities and usage guidelines for historic shophouses.",
+      "button": "View Guidelines"
+    },
+    "seasonParking": {
+      "title": "Buy URA Season Parking",
+      "description": "Purchase season parking passes with online payment and instant confirmation.",
+      "button": "Buy Pass"
+    },
+    "conservation": {
+      "title": "Conservation Areas",
+      "description": "Heritage districts guidelines and restoration requirements for historic buildings.",
+      "button": "Learn More"
+    },
+    "propertyTransactions": {
+      "title": "Property Transactions",
+      "description": "Comprehensive data on residential property sales and market trends.",
+      "button": "View Data"
+    },
+    "urbanDesign": {
+      "title": "Urban Design Guidelines",
+      "description": "Planning control plans and design standards for Singapore's built environment.",
+      "button": "View Guidelines"
+    },
+    "demographics": {
+      "title": "Demographics & Planning",
+      "description": "Population statistics and planning data by subzone for development decisions.",
+      "button": "Explore Data"
+    }
+  },
+  "getInvolved": {
+    "title": "Get Involved",
+    "draftMasterPlan": "Draft Master Plan 2025 Exhibition",
+    "draftMasterPlanDesc": "We are mapping out detailed land use plans for the next 10 to 15 years in the Draft Master Plan 2025. Join us in shaping our city.",
+    "architectureCollection": "Singapore Architecture Collection Exhibitions",
+    "architectureCollectionDesc": "This exhibition explores five bold plans from the past 60 years—like the 1971 Concept Plan, the Central Area Structure Plan, and the Identity Plan - that have shaped our city.",
+    "williamLimIdea": "To draw an Idea: retracing the designs of William Lim Associates – W Architects",
+    "williamLimIdeaDesc": "Learn more about Singapore's architecture in the first showcase of the Singapore Architecture Collection, from William Lim Associates and W Architects",
+    "seeMore": "See More"
+  },
+  "ideasTrends": {
+    "title": "Ideas and Trends",
+    "artWestCoast": "Art brings new life to West Coast Park",
+    "designMuseums": "How design museums can effect change in cities",
+    "designMuseumsDesc": "Design museums can inspire transformative changes in cities, shares Maria Nicanor, Director, Cooper Hewitt, Smithsonian Design Museum, reflecting on the role of museums and the power of design.",
+    "sustainingHeritage": "Sustaining our love for our built heritage",
+    "sustainingHeritageDesc": "NUS Professor Ho Puay Peng hopes for more public sharing of Singapore's built heritage and robust conservation management plans adopted for conservation projects.",
+    "seeMore": "See More"
+  },
+  "ideasTrends": {
+    "title": "Ideas and Trends",
+    "articles": [
+      {
+        "title": "Art brings new life to West Coast Park",
+        "description": "Creative installations transform public spaces into vibrant community hubs."
+      },
+      {
+        "title": "How design museums can effect change in cities",
+        "description": "Design museums inspire transformative changes in cities, reflecting on the role of museums and the power of design."
+      },
+      {
+        "title": "Sustaining our love for our built heritage",
+        "description": "Professor Ho Puay Peng hopes for more public sharing of Singapore's built heritage and robust conservation management."
+      },
+      {
+        "title": "Building blocks of a nation",
+        "description": "Expert insights on developing frameworks for economy, defense, housing and social fabric to guide heritage site assessment."
+      },
+      {
+        "title": "Why ecological corridors are important for high-density cities",
+        "description": "New study shows how corridors enable biodiversity to flourish while people enjoy nature closer to homes."
+      },
+      {
+        "title": "Identity Corridors spark new possibilities",
+        "description": "Residents envision new possibilities from Identity Corridors engagements - outdoor classrooms or activate back lanes."
+      }
+    ],
+    "seeMore": "See More"
+  },
+  "latestNews": {
+    "title": "Latest News",
+    "news": [
+      {
+        "date": "10 September 2025",
+        "category": "Media Releases",
+        "title": "Tender award for URA sale site at Chuan Grove"
+      },
+      {
+        "date": "04 September 2025", 
+        "category": "Media Releases",
+        "title": "Tender closing for URA sale site at Chuan Grove"
+      },
+      {
+        "date": "26 August 2025",
+        "category": "Media Releases", 
+        "title": "URA launches tender for sale site at Bukit Timah Road"
+      },
+      {
+        "date": "07 August 2025",
+        "category": "Media Releases",
+        "title": "Tender award for URA sale site at Holland Link"
+      },
+      {
+        "date": "31 July 2025",
+        "category": "Media Releases",
+        "title": "President's Design Award 2025 recognises visionary and purposeful design driving positive social and environmental change"
+      },
+      {
+        "date": "29 July 2025",
+        "category": "Media Releases",
+        "title": "Tender closing for URA sale site at Holland Link"
+      },
+      {
+        "date": "25 July 2025",
+        "category": "Media Releases",
+        "title": "Release of 2nd Quarter 2025 real estate statistics"
+      },
+      {
+        "date": "17 July 2025",
+        "category": "Media Releases",
+        "title": "Tender award for URA sale site at Chuan Grove"
+      },
+      {
+        "date": "15 July 2025",
+        "category": "Media Releases",
+        "title": "Individual and company charged for unauthorised works to conserved building at 32 Desker Road"
+      }
+    ],
+    "seeMore": "See More"
+  },
+  "footer": {
+    "eServices": "e-Services",
+    "carParks": "Car Parks",
+    "conservation": "Conservation",
+    "developmentControl": "Development Control",
+    "oneStopPortal": "One-Stop Developers' Portal",
+    "planning": "Planning",
+    "propertyMarket": "Property Market",
+    "infrastructureNetwork": "Infrastructure Network Planning and Alignment Clearance",
+    "others": "Others",
+    "mediaRoom": "Media Room",
+    "mediaReleases": "Media Releases",
+    "forumReplies": "Forum Replies",
+    "speeches": "Speeches",
+    "careers": "Careers",
+    "bePartOfTeam": "Be part of an exceptional team!",
+    "careersAtURA": "Careers at URA",
+    "opportunitiesStudents": "Opportunities for Students",
+    "facilitiesRental": "Facilities Rental",
+    "hall": "Hall",
+    "rooms": "Rooms",
+    "cityGalleryTitle": "SINGAPORE CITY GALLERY",
+    "cityGalleryDesc": "Visit our Gallery to discover Singapore's development journey!",
+    "monthlyUpdates": "Receive our monthly updates",
+    "subscribe": "Subscribe",
+    "reportVulnerability": "Report Vulnerability",
+    "privacyStatement": "Privacy Statement",
+    "termsOfUse": "Terms of Use",
+    "sitemap": "Sitemap",
+    "contactUs": "Contact Us",
+    "feedback": "Feedback",
+    "copyright": "©2025 Urban Redevelopment Authority",
+    "lastUpdated": "Last Updated : 12 Sep 2025"
+  },
+  "government": {
+    "agencyWebsite": "A Singapore Government Agency Website"
+  }
+}

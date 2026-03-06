@@ -1,0 +1,49 @@
+/**
+ * Module: molecules/button.css
+ * Type: Molecule
+ * Purpose: Reusable button styles (outline, primary variants).
+ *
+ * Depends on: atoms/tokens-semantic.css
+ * Used by: organisms
+ * Side effects: None
+ */
+
+.see-more-btn,
+.subscribe-btn {
+  background: transparent;
+  border: 2px solid var(--text-primary);
+  color: var(--text-primary);
+  padding: 1rem 3rem;
+  border-radius: 6px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.see-more-btn:hover,
+.subscribe-btn:hover {
+  background: var(--text-primary);
+  color: var(--bg-page);
+}
+
+.launch-btn {
+  background: var(--primary-base);
+  color: white;
+  padding: 1.25rem 3rem;
+  border: none;
+  border-radius: 8px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: var(--shadow-md);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.launch-btn:hover {
+  background: var(--primary-dark);
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-lg);
+}

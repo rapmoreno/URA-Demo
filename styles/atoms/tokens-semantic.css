@@ -1,0 +1,102 @@
+/**
+ * Module: atoms/tokens-semantic.css
+ * Type: Atoms - Semantic token mappings
+ * Purpose: Map raw tokens to semantic roles. Molecules and organisms use these only.
+ *
+ * Depends on: atoms/tokens.css
+ * Used by: molecules, organisms
+ * Side effects: None
+ */
+
+:root {
+  /* Layer 1: Global */
+  --text-primary: var(--color-dark);
+  --text-secondary: #555555;
+  --text-muted: #666666;
+  --text-inverse: var(--color-white);
+  --text-link: var(--raw-primary);
+
+  --bg-page: #ffffff;
+  --bg-surface: #ffffff;
+  --bg-elevated: #f8f9fa;
+  --bg-secondary: #f8f9fa;
+  --bg-tertiary: #f5f5f5;
+  --bg-accent: #e8eaed;
+
+  --border: #e9ecef;
+  --border-light: #f0f0f0;
+  --border-dark: #ddd;
+  --shadow: var(--shadow-sm);
+
+  /* Layer 2: Brand (URA) */
+  --primary-light: var(--raw-primary-light);
+  --primary-base: var(--raw-primary);
+  --primary-dark: var(--raw-secondary);
+  --secondary-light: #e8eaed;
+  --secondary-base: #6c757d;
+  --secondary-dark: #495057;
+
+  /* Layer 3: Status */
+  --error-light: var(--raw-error-light);
+  --error-base: var(--raw-error);
+  --error-dark: var(--raw-error-dark);
+  --success-light: var(--raw-success-light);
+  --success-base: var(--raw-success);
+  --success-dark: var(--raw-success-dark);
+  --warning-light: var(--raw-warning-light);
+  --warning-base: var(--raw-warning);
+  --warning-dark: var(--raw-warning-dark);
+  --info-light: var(--raw-info-light);
+  --info-base: var(--raw-info);
+  --info-dark: var(--raw-info-dark);
+
+  /* Aliases for compatibility with existing main.css */
+  --color-text-primary: var(--text-primary);
+  --color-text-secondary: var(--text-secondary);
+  --color-text-muted: var(--text-muted);
+  --color-bg-primary: var(--bg-page);
+  --color-bg-secondary: var(--bg-secondary);
+  --color-bg-tertiary: var(--bg-tertiary);
+  --color-bg-accent: var(--bg-accent);
+  --color-brand-primary: var(--primary-base);
+  --color-brand-secondary: var(--primary-dark);
+  --color-brand-accent: var(--raw-accent);
+  --color-surface: var(--bg-surface);
+  --color-border: var(--border);
+  --color-overlay: rgba(0, 0, 0, 0.6);
+  --color-overlay-light: rgba(0, 0, 0, 0.3);
+}
+
+[data-theme="dark"] {
+  --text-primary: #ffffff;
+  --text-secondary: #e0e0e0;
+  --text-muted: #b0b0b0;
+  --text-inverse: var(--color-dark);
+
+  --bg-page: #181818;
+  --bg-surface: #1a1a1a;
+  --bg-elevated: #222222;
+  --bg-secondary: #0a0a0a;
+  --bg-tertiary: #222222;
+  --bg-accent: #2a2a2a;
+
+  --border: #333333;
+  --border-light: #3a3a3a;
+  --border-dark: #444444;
+
+  --color-text-primary: var(--text-primary);
+  --color-text-secondary: var(--text-secondary);
+  --color-text-muted: var(--text-muted);
+  --color-bg-primary: var(--bg-page);
+  --color-bg-secondary: var(--bg-secondary);
+  --color-bg-tertiary: var(--bg-tertiary);
+  --color-bg-accent: var(--bg-accent);
+  --color-surface: var(--bg-surface);
+  --color-border: var(--border);
+  --color-overlay: rgba(0, 0, 0, 0.8);
+  --color-overlay-light: rgba(0, 0, 0, 0.5);
+
+  --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.3);
+  --shadow-md: 0 4px 16px rgba(0, 0, 0, 0.4);
+  --shadow-lg: 0 8px 32px rgba(0, 0, 0, 0.5);
+}

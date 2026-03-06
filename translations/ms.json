@@ -1,0 +1,223 @@
+{
+  "navigation": {
+    "whoWeAre": "Siapa Kami",
+    "planning": "Perancangan",
+    "property": "Hartanah",
+    "guidelines": "Garis Panduan",
+    "carParks": "Tempat Letak Kereta",
+    "landSales": "Jualan Tanah Kerajaan",
+    "getInvolved": "Libatkan Diri"
+  },
+  "hero": {
+    "tagline": "Sekilas masa hadapan<br>hari ini",
+    "title": "Sekilas masa hadapan di<br>Pameran Draf Pelan Induk 2025",
+    "findOut": "Ketahui lebih lanjut di",
+    "link": "go.gov.sg/URADraftMasterPlan",
+    "footerTagline": "Memandang ke hadapan untuk kehidupan"
+  },
+  "quickLinks": {
+    "title": "Pautan Pantas",
+    "masterPlan": "Pelan Induk 2025",
+    "buyRentProperty": "Beli & Sewa Hartanah",
+    "applyParking": "Mohon Tempat Letak Kereta",
+    "renewParking": "Perbaharui Tempat Letak Kereta",
+    "payApplicationFees": "Bayar Yuran Permohonan",
+    "higherOccupancy": "Permohonan Penghunian Lebih Tinggi",
+    "payFines": "Bayar Denda",
+    "moreServices": "Lebih Banyak Perkhidmatan"
+  },
+  "uraSpace": {
+    "description": "Data perancangan untuk profesional bangunan, pengusaha dan orang awam",
+    "launch": "Buka",
+    "masterPlan2019": "Pelan Induk 2019",
+    "governmentLandSales": "Jualan Tanah Kerajaan",
+    "exploreDevelopmentSite": "Terokai Tapak Pembangunan",
+    "checkCarParkRates": "Semak Kadar Tempat Letak Kereta",
+    "allowableUseShophouses": "Penggunaan Dibenarkan untuk Rumah Kedai",
+    "buyUraSeasonParking": "Beli Pas Letak Kereta Musim URA",
+    "conservationAreasBuildings": "Kawasan dan Bangunan Pemuliharaan",
+    "privateResidentialTransactions": "Transaksi Hartanah Kediaman Swasta",
+    "controlPlansUrbanDesign": "Pelan Kawalan dan Garis Panduan Reka Bentuk Bandar",
+    "demographicsPlanning": "Demografi dalam Subzon Perancangan"
+  },
+  "serviceCards": {
+    "masterPlan": {
+      "title": "Pelan Induk 2019",
+      "description": "Pelan tata guna tanah Singapura yang membimbing pembangunan 10-15 tahun akan datang.",
+      "button": "Jelajah Pelan"
+    },
+    "landSales": {
+      "title": "Jualan Tanah Kerajaan",
+      "description": "Maklumat masa nyata petak tanah kerajaan dan peluang pembangunan.",
+      "button": "Lihat Tapak"
+    },
+    "developmentSite": {
+      "title": "Terokai Tapak Pembangunan",
+      "description": "Alat interaktif untuk menganalisis potensi pembangunan dan parameter perancangan.",
+      "button": "Mula Jelajah"
+    },
+    "carParkRates": {
+      "title": "Semak Kadar Tempat Letak Kereta",
+      "description": "Kadar tempat letak kereta dan pilihan pembayaran URA di seluruh pulau.",
+      "button": "Semak Kadar"
+    },
+    "shophouses": {
+      "title": "Penggunaan Dibenarkan untuk Rumah Kedai",
+      "description": "Aktiviti perniagaan dan garis panduan untuk rumah kedai bersejarah.",
+      "button": "Lihat Garis Panduan"
+    },
+    "seasonParking": {
+      "title": "Beli Pas Letak Kereta Musim URA",
+      "description": "Beli pas letak kereta musim dalam talian dengan pengesahan segera.",
+      "button": "Beli Pas"
+    },
+    "conservation": {
+      "title": "Kawasan Pemuliharaan",
+      "description": "Garis panduan warisan dan keperluan pemulihan bangunan bersejarah.",
+      "button": "Ketahui Lebih Lanjut"
+    },
+    "propertyTransactions": {
+      "title": "Transaksi Hartanah",
+      "description": "Data komprehensif jualan hartanah kediaman dan trend pasaran.",
+      "button": "Lihat Data"
+    },
+    "urbanDesign": {
+      "title": "Garis Panduan Reka Bentuk Bandar",
+      "description": "Pelan kawalan dan piawaian reka bentuk untuk persekitaran binaan Singapura.",
+      "button": "Lihat Garis Panduan"
+    },
+    "demographics": {
+      "title": "Demografi & Perancangan",
+      "description": "Statistik penduduk dan data perancangan mengikut subzon untuk keputusan pembangunan.",
+      "button": "Jelajah Data"
+    }
+  },
+  "getInvolved": {
+    "title": "Libatkan Diri",
+    "draftMasterPlan": "Pameran Draf Pelan Induk 2025",
+    "draftMasterPlanDesc": "Kami sedang memetakan pelan penggunaan tanah terperinci untuk 10 hingga 15 tahun akan datang dalam Draf Pelan Induk 2025. Sertai kami dalam membentuk bandar kita.",
+    "architectureCollection": "Pameran Koleksi Seni Bina Singapura",
+    "architectureCollectionDesc": "Pameran ini meneroka lima pelan berani dari 60 tahun yang lalu—seperti Pelan Konsep 1971, Pelan Struktur Kawasan Pusat, dan Pelan Identiti - yang telah membentuk bandar kita.",
+    "williamLimIdea": "Melukis Idea: menjejaki reka bentuk William Lim Associates – W Architects",
+    "williamLimIdeaDesc": "Ketahui lebih lanjut tentang seni bina Singapura dalam pameran pertama Koleksi Seni Bina Singapura, daripada William Lim Associates dan W Architects",
+    "seeMore": "Lihat Lagi"
+  },
+  "ideasTrends": {
+    "title": "Idea dan Trend",
+    "articles": [
+      {
+        "title": "Seni memberikan kehidupan baru kepada Taman Pantai Barat",
+        "description": "Pemasangan kreatif mengubah ruang awam menjadi pusat komuniti yang meriah."
+      },
+      {
+        "title": "Bagaimana muzium reka bentuk boleh membawa perubahan dalam bandar",
+        "description": "Muzium reka bentuk menginspirasi perubahan transformatif dalam bandar, merefleksikan peranan muzium dan kuasa reka bentuk."
+      },
+      {
+        "title": "Mengekalkan kecintaan kita terhadap warisan binaan",
+        "description": "Profesor Ho Puay Peng berharap lebih banyak perkongsian awam warisan binaan Singapura dan pengurusan pemuliharaan yang mantap."
+      },
+      {
+        "title": "Blok bangunan sebuah negara",
+        "description": "Pandangan pakar tentang membangunkan kerangka untuk ekonomi, pertahanan, perumahan dan fabrik sosial untuk membimbing penilaian tapak warisan."
+      },
+      {
+        "title": "Mengapa koridor ekologi penting untuk bandar berkepadatan tinggi",
+        "description": "Kajian baru menunjukkan bagaimana koridor membolehkan biodiversiti berkembang sambil orang ramai menikmati alam yang lebih dekat dengan rumah."
+      },
+      {
+        "title": "Koridor Identiti mencetuskan kemungkinan baru",
+        "description": "Penduduk membayangkan kemungkinan baru daripada penglibatan Koridor Identiti - bilik darjah luar atau mengaktifkan lorong belakang."
+      }
+    ],
+    "seeMore": "Lihat Lagi"
+  },
+  "latestNews": {
+    "title": "Berita Terkini",
+    "news": [
+      {
+        "date": "10 September 2025",
+        "category": "Siaran Media",
+        "title": "Anugerah tender untuk tapak jualan URA di Chuan Grove"
+      },
+      {
+        "date": "04 September 2025", 
+        "category": "Siaran Media",
+        "title": "Penutupan tender untuk tapak jualan URA di Chuan Grove"
+      },
+      {
+        "date": "26 Ogos 2025",
+        "category": "Siaran Media", 
+        "title": "URA melancarkan tender untuk tapak jualan di Jalan Bukit Timah"
+      },
+      {
+        "date": "07 Ogos 2025",
+        "category": "Siaran Media",
+        "title": "Anugerah tender untuk tapak jualan URA di Holland Link"
+      },
+      {
+        "date": "31 Julai 2025",
+        "category": "Siaran Media",
+        "title": "Anugerah Reka Bentuk Presiden 2025 mengiktiraf reka bentuk bervisi dan bertujuan yang mendorong perubahan sosial dan alam sekitar yang positif"
+      },
+      {
+        "date": "29 Julai 2025",
+        "category": "Siaran Media",
+        "title": "Penutupan tender untuk tapak jualan URA di Holland Link"
+      },
+      {
+        "date": "25 Julai 2025",
+        "category": "Siaran Media",
+        "title": "Pelepasan statistik hartanah suku ke-2 2025"
+      },
+      {
+        "date": "17 Julai 2025",
+        "category": "Siaran Media",
+        "title": "Anugerah tender untuk tapak jualan URA di Chuan Grove"
+      },
+      {
+        "date": "15 Julai 2025",
+        "category": "Siaran Media",
+        "title": "Individu dan syarikat didakwa atas kerja tanpa kebenaran ke atas bangunan terpelihara di 32 Jalan Desker"
+      }
+    ],
+    "seeMore": "Lihat Lagi"  
+  },
+  "footer": {
+    "eServices": "e-Perkhidmatan",
+    "carParks": "Tempat Letak Kereta",
+    "conservation": "Pemuliharaan",
+    "developmentControl": "Kawalan Pembangunan",
+    "oneStopPortal": "Portal Pembangun Satu Henti",
+    "planning": "Perancangan",
+    "propertyMarket": "Pasaran Hartanah",
+    "infrastructureNetwork": "Perancangan Rangkaian Infrastruktur dan Kelulusan Penjajaran",
+    "others": "Lain-lain",
+    "mediaRoom": "Bilik Media",
+    "mediaReleases": "Siaran Media",
+    "forumReplies": "Balasan Forum",
+    "speeches": "Ucapan",
+    "careers": "Kerjaya",
+    "bePartOfTeam": "Jadilah sebahagian daripada pasukan yang luar biasa!",
+    "careersAtURA": "Kerjaya di URA",
+    "opportunitiesStudents": "Peluang untuk Pelajar",
+    "facilitiesRental": "Penyewaan Kemudahan",
+    "hall": "Dewan",
+    "rooms": "Bilik",
+    "cityGalleryTitle": "SINGAPORE CITY GALLERY",
+    "cityGalleryDesc": "Lawati Galeri kami untuk mengetahui perjalanan pembangunan Singapura!",
+    "monthlyUpdates": "Terima kemas kini bulanan kami",
+    "subscribe": "Langgan",
+    "reportVulnerability": "Laporkan Kelemahan",
+    "privacyStatement": "Kenyataan Privasi",
+    "termsOfUse": "Terma Penggunaan",
+    "sitemap": "Peta Laman",
+    "contactUs": "Hubungi Kami",
+    "feedback": "Maklum Balas",
+    "copyright": "©2025 Lembaga Pembangunan Semula Bandar",
+    "lastUpdated": "Kemaskini Terakhir : 12 Sep 2025"
+  },
+  "government": {
+    "agencyWebsite": "Laman Web Agensi Kerajaan Singapura"
+  }
+}

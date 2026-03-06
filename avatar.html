@@ -1,0 +1,24 @@
+<!-- No inline or internal CSS styles are allowed. -->
+<!DOCTYPE html>
+<html lang="en" class="avatar-creator-page">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Avatar Creator — URA</title>
+  <link rel="stylesheet" href="/styles/organisms/avatar-creator.css">
+</head>
+<body class="avatar-creator-page">
+  <noscript><p>This page requires JavaScript to function.</p></noscript>
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+  <div class="container" id="main-content">
+    <div class="controls">
+      <h1 class="title">URA Avatar Creator</h1>
+      <button type="button" class="btn" id="createAvatarBtn">Create Avatar</button>
+      <div id="avatarUrl" class="avatar-url">Avatar URL: Ready to create...</div>
+    </div>
+    <iframe id="frame" class="frame" allow="camera *; microphone *; clipboard-write" hidden title="Ready Player Me Avatar Creator"></iframe>
+  </div>
+  <script type="module" src="/scripts/effect.avatar-creator.js"></script>
+</body>
+</html>

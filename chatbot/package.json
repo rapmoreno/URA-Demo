@@ -1,0 +1,39 @@
+{
+  "name": "korav5",
+  "version": "1.0.1",
+  "description": "KoraV5 - Advanced AI Avatar Assistant with Claude, ReadyPlayerMe, Amazon Polly TTS, and Book Cover Display",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js",
+    "build": "echo 'No build step required'",
+    "install-deps": "npm install"
+  },
+  "dependencies": {
+    "@aws-sdk/client-bedrock": "^3.830.0",
+    "@aws-sdk/client-bedrock-agent": "^3.840.0",
+    "@aws-sdk/client-bedrock-agent-runtime": "^3.840.0",
+    "@aws-sdk/client-bedrock-runtime": "^3.830.0",
+    "@aws-sdk/client-s3": "^3.840.0",
+    "aws-sdk": "^2.1490.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "groq-sdk": "^0.3.3",
+    "openai": "^4.104.0",
+    "ws": "^8.14.2",
+    "yaml": "^2.8.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "keywords": [
+    "readyplayerme",
+    "avatar",
+    "tts",
+    "polly",
+    "lip-sync"
+  ],
+  "author": "Raphael Moreno",
+  "license": "MIT"
+}

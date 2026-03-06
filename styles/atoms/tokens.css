@@ -1,0 +1,82 @@
+/**
+ * Module: atoms/tokens.css
+ * Type: Atoms - Raw design tokens
+ * Purpose: Raw palette values (colors, fonts, spacing, shadows, z-index).
+ *          Never used directly by molecules or organisms.
+ *
+ * Depends on: nothing
+ * Used by: atoms/tokens-semantic.css
+ * Side effects: None
+ */
+
+:root {
+  /* Base */
+  --color-black: #000000;
+  --color-white: #ffffff;
+  --color-dark: #212529;
+  --color-light: #f8f9fa;
+
+  /* Brand - URA */
+  --raw-primary: #e74c3c;
+  --raw-primary-light: #ff6b5b;
+  --raw-primary-dark: #c0392b;
+  --raw-secondary: #c0392b;
+  --raw-accent: #ff8c42;
+
+  /* Status */
+  --raw-success: #198754;
+  --raw-success-light: #75b798;
+  --raw-success-dark: #146c43;
+  --raw-warning: #ffc107;
+  --raw-warning-light: #ffda6a;
+  --raw-warning-dark: #cc9a06;
+  --raw-error: #dc3545;
+  --raw-error-light: #ea868f;
+  --raw-error-dark: #b02a37;
+  --raw-info: #0dcaf0;
+  --raw-info-light: #6edff6;
+  --raw-info-dark: #087990;
+
+  /* Typography */
+  --font-sans: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --font-mono: ui-monospace, SFMono-Regular, Monaco, Consolas, monospace;
+
+  --font-size-xs: 0.75rem;
+  --font-size-sm: 0.875rem;
+  --font-size-base: 1rem;
+  --font-size-lg: 1.125rem;
+  --font-size-xl: 1.25rem;
+  --font-size-2xl: 1.5rem;
+  --font-size-3xl: 1.875rem;
+  --font-size-4xl: 2.25rem;
+  --font-size-5xl: 3rem;
+
+  --font-weight-normal: 400;
+  --font-weight-medium: 500;
+  --font-weight-semibold: 600;
+  --font-weight-bold: 700;
+
+  /* Spacing */
+  --spacing-xs: 0.25rem;
+  --spacing-sm: 0.5rem;
+  --spacing-md: 1rem;
+  --spacing-lg: 1.5rem;
+  --spacing-xl: 2rem;
+  --spacing-2xl: 3rem;
+  --spacing-3xl: 4rem;
+
+  /* Radius */
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-lg: 12px;
+  --radius-xl: 16px;
+
+  /* Shadows */
+  --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.1);
+  --shadow-md: 0 4px 16px rgba(0, 0, 0, 0.15);
+  --shadow-lg: 0 8px 32px rgba(0, 0, 0, 0.15);
+
+  /* Z-index */
+  --z-dropdown: 1000;
+  --z-modal: 10000;
+}

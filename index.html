@@ -1,0 +1,315 @@
+<!-- No inline or internal CSS styles are allowed. -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- SEO -->
+  <title>Urban Redevelopment Authority</title>
+  <meta name="description" content="URA - Singapore's planning and urban development authority. Master Plan, land sales, car parks, conservation, and property services.">
+  <link rel="canonical" href="https://www.ura.gov.sg/">
+  <meta name="robots" content="index, follow">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Urban Redevelopment Authority">
+  <meta property="og:description" content="URA - Singapore's planning and urban development authority.">
+  <meta property="og:type" content="website">
+
+  <link rel="icon" href="/img/favicon.ico" type="image/x-icon">
+
+  <!-- JSON-LD -->
+  <script type="application/ld+json">
+    {"@context":"https://schema.org","@type":"Organization","name":"Urban Redevelopment Authority","url":"https://www.ura.gov.sg/","description":"Singapore's planning and urban development authority. Master Plan, land sales, car parks, conservation, and property services."}
+  </script>
+
+  <!-- CSS: reset > Tailwind CDN > fonts > icons > main.css -->
+  <link rel="stylesheet" href="/styles/reset.css">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="/tailwind.config.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+  <link rel="stylesheet" href="/styles/main.css">
+  
+</head>
+<body>
+  <noscript><p>This site requires JavaScript to function. Please enable JavaScript in your browser.</p></noscript>
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <!-- Government Bar -->
+  <div class="gov-bar">
+    <div class="gov-bar-content">
+      <img src="img/lion-head.png" alt="Singapore Government" class="gov-logo">
+      <span class="gov-text" data-translate="government.agencyWebsite">A Singapore Government Agency Website</span>
+    </div>
+  </div>
+  
+  <!-- Main Navigation -->
+  <app-site-nav>
+    <div class="nav-section nav-section-1">
+      <img src="img/URALogo.png" alt="Urban Redevelopment Authority" class="ura-logo">
+    </div>
+    <div class="nav-section nav-section-2">
+      <div class="nav-toggles">
+        <div class="language-toggle-container">
+          <button class="language-toggle" id="languageToggle">
+            <i class="ri-global-line"></i>
+            <span id="currentLanguage">English</span>
+            <i class="ri-arrow-down-s-line"></i>
+          </button>
+          <div class="language-dropdown" id="languageDropdown">
+            <a href="#" class="language-option" data-lang="en">English</a>
+            <a href="#" class="language-option" data-lang="zh">中文</a>
+            <a href="#" class="language-option" data-lang="ms">Melayu</a>
+            <a href="#" class="language-option" data-lang="ta">தமிழ்</a>
+          </div>
+        </div>
+        <button class="theme-toggle">
+          <i class="ri-sun-line"></i>
+        </button>
+      </div>
+    </div>
+    <div class="nav-section nav-section-3">
+      <nav class="nav-menu">
+        <a href="#" class="nav-item" data-translate="navigation.whoWeAre">Who We Are</a>
+        <a href="#" class="nav-item" data-translate="navigation.planning">Planning</a>
+        <a href="#" class="nav-item" data-translate="navigation.property">Property</a>
+        <a href="#" class="nav-item" data-translate="navigation.guidelines">Guidelines</a>
+        <a href="#" class="nav-item" data-translate="navigation.carParks">Car Parks</a>
+        <a href="#" class="nav-item" data-translate="navigation.landSales">Land Sales</a>
+        <a href="#" class="nav-item" data-translate="navigation.getInvolved">Get Involved</a>
+      </nav>
+      <div class="nav-actions">
+        <button class="search-btn">
+          <i class="ri-search-line"></i>
+        </button>
+        <button class="menu-btn">
+          <i class="ri-menu-line"></i>
+        </button>
+      </div>
+    </div>
+  </app-site-nav>
+
+  <main id="main-content">
+  <!-- Hero Section -->
+  <section class="hero-section">
+    <!-- Full Width Hero Background -->
+    <div class="hero-background">
+      <div class="hero-overlay">
+        <div class="hero-container">
+          <!-- Hero Content -->
+          <div class="hero-content">
+            <div class="hero-tagline" data-translate="hero.tagline">Catch a glimpse of<br>tomorrow, today.</div>
+            <h1 data-translate="hero.title">Peek into the future at the<br>Draft Master Plan 2025 Exhibition.</h1>
+            <p data-translate="hero.findOut">Find out more at</p>
+            <a href="#" class="hero-link" data-translate="hero.link">go.gov.sg/URADraftMasterPlan</a>
+            <div class="hero-footer-tagline" data-translate="hero.footerTagline">Look forward to life.</div>
+          </div>
+          
+          <!-- Quick Links Card -->
+          <div class="quick-links-card">
+            <div class="quick-links-header">
+              <h3 data-translate="quickLinks.title">Quick Links</h3>
+            </div>
+            <div class="quick-links-grid">
+              <app-quick-link icon="ri-file-text-line" href="#" data-translate="quickLinks.masterPlan">Master Plan 2025</app-quick-link>
+              <app-quick-link icon="ri-home-line" href="#" data-translate="quickLinks.buyRentProperty">Buy & Rent Property</app-quick-link>
+              <app-quick-link icon="ri-car-line" href="#" data-translate="quickLinks.applyParking">Apply Parking</app-quick-link>
+              <app-quick-link icon="ri-car-fill" href="#" data-translate="quickLinks.renewParking">Renew Parking</app-quick-link>
+              <app-quick-link icon="ri-file-paper-line" href="#" data-translate="quickLinks.payApplicationFees">Pay Application Fees</app-quick-link>
+              <app-quick-link icon="ri-building-line" href="#" data-translate="quickLinks.higherOccupancy">Higher Occupancy</app-quick-link>
+              <app-quick-link icon="ri-money-dollar-circle-line" href="#" data-translate="quickLinks.payFines">Pay Fines</app-quick-link>
+              <app-quick-link icon="ri-more-line" href="#" data-translate="quickLinks.moreServices">More Services</app-quick-link>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section class="services-section">
+    <div class="services-container">
+      <div class="services-header">
+        <div class="services-intro">
+          <h2>URA SPACE</h2>
+          <p data-translate="uraSpace.description">Planning data for building professionals, business operators and public</p>
+        </div>
+        <div class="services-action">
+          <button class="launch-btn" data-translate="uraSpace.launch">Launch</button>
+        </div>
+      </div>
+      
+      <div class="services-grid" id="servicesGrid">
+        <!-- Service cards will be dynamically populated -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Get Involved Section -->
+  <section class="get-involved-section">
+    <div class="get-involved-container">
+      <app-section-header data-translate="getInvolved.title">Get Involved</app-section-header>
+      
+      <div class="masonry-grid">
+        <div class="masonry-card masonry-card-large">
+          <div class="card-image card-image-orange">
+            <img src="generated-img/draft-master-plan-2025-exhibition.png" alt="Draft Master Plan 2025 Exhibition" class="card-image-cover">
+          </div>
+          <div class="card-content">
+            <h3 data-translate="getInvolved.draftMasterPlan">Draft Master Plan 2025 Exhibition</h3>
+            <p data-translate="getInvolved.draftMasterPlanDesc">We are mapping out detailed land use plans for the next 10 to 15 years in the Draft Master Plan 2025. Join us in shaping our city.</p>
+          </div>
+        </div>
+        
+        <div class="masonry-card masonry-card-medium">
+          <div class="card-image card-image-collage"></div>
+          <div class="card-content">
+            <h3 data-translate="getInvolved.architectureCollection">Singapore Architecture Collection Exhibitions</h3>
+            <p data-translate="getInvolved.architectureCollectionDesc">This exhibition explores five bold plans from the past 60 years—like the 1971 Concept Plan, the Central Area Structure Plan, and the Identity Plan - that have shaped our city.</p>
+          </div>
+        </div>
+        
+        <div class="masonry-card masonry-card-tall">
+          <div class="card-image card-image-gallery"></div>
+          <div class="card-content">
+            <h3 data-translate="getInvolved.williamLimIdea">To draw an Idea: retracing the designs of William Lim Associates – W Architects</h3>
+            <p data-translate="getInvolved.williamLimIdeaDesc">Learn more about Singapore's architecture in the first showcase of the Singapore Architecture Collection, from William Lim Associates and W Architects</p>
+          </div>
+        </div>
+      </div>
+      
+      <div class="see-more-container">
+        <button class="see-more-btn" data-translate="getInvolved.seeMore">See More</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Ideas and Trends Carousel Section -->
+  <section class="ideas-trends-section">
+    <div class="ideas-trends-container">
+      <app-section-header data-translate="ideasTrends.title">Ideas and Trends</app-section-header>
+      
+      <app-carousel></app-carousel>
+      
+      <div class="see-more-container">
+        <button class="see-more-btn" data-translate="ideasTrends.seeMore">See More</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Latest News Section -->
+  <section class="latest-news-section">
+    <div class="latest-news-container">
+      <app-section-header data-translate="latestNews.title">Latest News</app-section-header>
+      
+      <div class="news-masonry-grid" id="newsMasonryGrid">
+        <!-- News items will be dynamically populated -->
+      </div>
+      
+      <div class="see-more-container">
+        <button class="see-more-btn" data-translate="latestNews.seeMore">See More</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer Section -->
+  <footer class="footer-section">
+    <div class="footer-container">
+      <div class="footer-content">
+        <app-footer-column>
+          <h3 data-translate="footer.eServices">e-Services</h3>
+          <ul>
+            <li><a href="#" data-translate="footer.carParks">Car Parks</a></li>
+            <li><a href="#" data-translate="footer.conservation">Conservation</a></li>
+            <li><a href="#" data-translate="footer.developmentControl">Development Control</a></li>
+            <li><a href="#" data-translate="footer.oneStopPortal">One-Stop Developers' Portal</a></li>
+            <li><a href="#" data-translate="footer.planning">Planning</a></li>
+            <li><a href="#" data-translate="footer.propertyMarket">Property Market</a></li>
+            <li><a href="#" data-translate="footer.infrastructureNetwork">Infrastructure Network Planning and Alignment Clearance</a></li>
+            <li><a href="#" data-translate="footer.others">Others</a></li>
+          </ul>
+        </app-footer-column>
+
+        <app-footer-column>
+          <h3 data-translate="footer.mediaRoom">Media Room</h3>
+          <ul>
+            <li><a href="#" data-translate="footer.mediaReleases">Media Releases</a></li>
+            <li><a href="#" data-translate="footer.forumReplies">Forum Replies</a></li>
+            <li><a href="#" data-translate="footer.speeches">Speeches</a></li>
+          </ul>
+        </app-footer-column>
+
+        <app-footer-column>
+          <h3 data-translate="footer.careers">Careers</h3>
+          <ul>
+            <li><a href="#" data-translate="footer.bePartOfTeam">Be part of an exceptional team!</a></li>
+            <li><a href="#" data-translate="footer.careersAtURA">Careers at URA</a></li>
+            <li><a href="#" data-translate="footer.opportunitiesStudents">Opportunities for Students</a></li>
+          </ul>
+        </app-footer-column>
+
+        <app-footer-column>
+          <h3 data-translate="footer.facilitiesRental">Facilities Rental</h3>
+          <ul>
+            <li><a href="#" data-translate="footer.hall">Hall</a></li>
+            <li><a href="#" data-translate="footer.rooms">Rooms</a></li>
+          </ul>
+        </app-footer-column>
+
+        <app-footer-column>
+          <div class="footer-promo">
+            <div class="footer-promo-image"></div>
+            <div class="footer-promo-content">
+              <h4 data-translate="footer.cityGalleryTitle">SINGAPORE CITY GALLERY</h4>
+              <p data-translate="footer.cityGalleryDesc">Visit our Gallery to discover Singapore's development journey!</p>
+            </div>
+          </div>
+        </app-footer-column>
+      </div>
+
+      <!-- Newsletter Section -->
+      <div class="footer-newsletter">
+        <h3 data-translate="footer.monthlyUpdates">Receive our monthly updates</h3>
+        <div class="newsletter-form">
+          <button class="subscribe-btn" data-translate="footer.subscribe">Subscribe</button>
+        </div>
+      </div>
+
+      <!-- Footer Bottom -->
+      <div class="footer-bottom">
+        <div class="footer-links">
+          <a href="#" data-translate="footer.reportVulnerability">Report Vulnerability <i class="ri-external-link-line"></i></a>
+          <a href="#" data-translate="footer.privacyStatement">Privacy Statement</a>
+          <a href="#" data-translate="footer.termsOfUse">Terms of Use</a>
+          <a href="#" data-translate="footer.sitemap">Sitemap</a>
+        </div>
+        
+        <div class="footer-contact-social">
+          <div class="footer-contact">
+            <a href="#" data-translate="footer.contactUs">Contact Us</a>
+            <a href="#" data-translate="footer.feedback">Feedback <i class="ri-external-link-line"></i></a>
+          </div>
+          
+          <div class="footer-social">
+            <a href="#" aria-label="Facebook"><i class="ri-facebook-fill"></i></a>
+            <a href="#" aria-label="Instagram"><i class="ri-instagram-line"></i></a>
+            <a href="#" aria-label="LinkedIn"><i class="ri-linkedin-fill"></i></a>
+            <a href="#" aria-label="Telegram"><i class="ri-telegram-fill"></i></a>
+            <a href="#" aria-label="TikTok"><i class="ri-tiktok-fill"></i></a>
+            <a href="#" aria-label="YouTube"><i class="ri-youtube-fill"></i></a>
+          </div>
+        </div>
+        
+        <div class="footer-copyright">
+          <p data-translate="footer.copyright">©2025 Urban Redevelopment Authority</p>
+          <p data-translate="footer.lastUpdated">Last Updated : 12 Sep 2025</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+  </main>
+
+  <app-chatbot-widget></app-chatbot-widget>
+
+  <script type="module" src="/scripts/main.js" defer></script>
