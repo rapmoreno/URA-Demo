@@ -5,7 +5,7 @@ const path = require('path');
 const http = require('http');
 require('dotenv').config();
 
-// Vercel: use cwd so static files resolve correctly
+// Vercel serverless: cwd is deployment root; __dirname can vary
 const BASE_DIR = process.env.VERCEL === '1' ? process.cwd() : __dirname;
 
 // Import API routes

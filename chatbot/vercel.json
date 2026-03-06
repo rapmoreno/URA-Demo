@@ -2,12 +2,14 @@
   "$schema": "https://openapi.vercel.sh/vercel.json",
   "version": 2,
   "name": "ura-chatbot",
-  "functions": {
-    "api/index.js": {
-      "includeFiles": "public/**,api/**"
-    }
-  },
-  "rewrites": [
-    { "source": "/(.*)", "destination": "/api/index.js" }
+  "builds": [
+    { "src": "server.js", "use": "@vercel/node" },
+    { "src": "public/**", "use": "@vercel/static" }
+  ],
+  "routes": [
+    { "src": "/api/(.*)", "dest": "/server.js" },
+    { "src": "/(css|js|images|animations)/(.*)", "dest": "/public/$1/$2" },
+    { "src": "/", "dest": "/server.js" },
+    { "src": "/(.*)", "dest": "/server.js" }
   ]
 }
